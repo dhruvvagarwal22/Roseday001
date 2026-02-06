@@ -3,11 +3,11 @@ const main = document.getElementById("screen-main");
 const startBtn = document.getElementById("start-btn");
 const steps = [...document.querySelectorAll(".step")];
 
-const herName = "HER_NAME";
-const yourName = "YOUR_NAME";
+const herName = "DIIYYUUU";
+const yourName = "DHRUV";
 
-document.getElementById("her-name").textContent = herName;
-document.getElementById("your-name").textContent = yourName;
+document.getElementById("her-name").textContent = DIIYYUUU;
+document.getElementById("your-name").textContent = DHRUV;
 
 const music = document.getElementById("music");
 const heartbeat = document.getElementById("heartbeat");
@@ -110,3 +110,4 @@ document.addEventListener("mousemove",e=>{
   document.body.appendChild(s);
   setTimeout(()=>s.remove(),1000);
 });
+
